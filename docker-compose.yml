@@ -1,0 +1,12 @@
+version: "3"
+services:
+  ecommercescraper:
+    container_name: IndexingApi
+    image: node:18-alpine
+    restart: unless-stopped
+    ports:
+      - "4813:3000"
+    volumes:
+      - .:/home
+    working_dir: /home
+    command: tail -f /dev/null

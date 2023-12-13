@@ -6,3 +6,8 @@
 4. Add your list of urls to `UrlsToIndex.txt` or `UrlsToRemove.txt`
 5. You can also run `node SitemapToUrls.js` to generate the `UrlsToIndex.txt`
 6. Run `node GoogleIndexingApi.js`
+
+### Docker
+
+1. To run in a Docker container, run `sh StartDocker.sh`
+2. Same steps as above.
